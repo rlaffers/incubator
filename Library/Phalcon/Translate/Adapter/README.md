@@ -54,7 +54,7 @@ $translate = new Phalcon\Translate\Adapter\Gettext(array(
 
 ```php
 echo $translate->_('Hello'); //Bonjour
-echo $translate->_('My name is %name%', array('name' => 'Peter')); //Je m'appelle Peter
+echo $translate->_('My name is %name%', NULL, array('name' => 'Peter')); //Je m'appelle Peter
 ```
 
 Alternatively, multiple domains, each with a different directory can be specified:
