@@ -1,3 +1,7 @@
+[![Latest Stable Version](https://poser.pugx.org/phalcon/incubator/v/stable.svg)](https://packagist.org/packages/phalcon/incubator)
+[![Total Downloads](https://poser.pugx.org/phalcon/incubator/downloads.svg)](https://packagist.org/packages/phalcon/incubator)
+[![License](https://poser.pugx.org/phalcon/incubator/license.svg)](https://packagist.org/packages/phalcon/incubator)
+
 # Phalcon Incubator
 
 Phalcon is a web framework delivered as a C extension providing high performance and lower resource consumption.
@@ -64,6 +68,10 @@ $loader->register();
 * [Phalcon\Acl\Adapter\Database](https://github.com/phalcon/incubator/tree/master/Library/Phalcon/Acl/Adapter) - ACL lists stored in database tables
 * [Phalcon\Acl\Adapter\Mongo](https://github.com/phalcon/incubator/tree/master/Library/Phalcon/Acl/Adapter) - ACL lists stored in Mongo collections
 * [Phalcon\Acl\Factory\Memory](https://github.com/phalcon/incubator/tree/master/Library/Phalcon/Acl/Factory) - ACL factory class intended for use with Memory adapter (digitronac)
+
+### Behaviors
+* [Phalcon\Mvc\Model\Befavior\Blameable](https://github.com/phalcon/incubator/tree/master/Library/Phalcon/Mvc/Model/Befavior) - logs with every created or updated row in your database who created and who updated it. 
+* [Phalcon\Mvc\Model\Befavior\NestedSet](https://github.com/phalcon/incubator/tree/master/Library/Phalcon/Mvc/Model/Befavior) - Nested Set behavior for models (braska)
 
 ### Cache
 * [Phalcon\Cache\Backend\Database](https://github.com/phalcon/incubator/tree/master/Library/Phalcon/Cache/Backend) - Database backend for caching data (phalcon)
