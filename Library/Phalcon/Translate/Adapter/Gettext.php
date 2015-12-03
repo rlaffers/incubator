@@ -337,6 +337,11 @@ class Gettext extends Base implements AdapterInterface
             throw new \InvalidArgumentException($domain . ' is invalid translation domain');
         }
 
+        if ($domain === null) {
+            return;
+            //return textdomain($this->defaultDomain);
+        }
+
         return textdomain($domain);
     }
 
